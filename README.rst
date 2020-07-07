@@ -58,6 +58,7 @@ Config Settings
     # The name of the admin
     ckan.userautoaddgroup.admin_username = [admin user name]
 
+:**Note**: This is at the moment for three categories of grops (based on the data model of SRADI/SDDI catalog). If you have more or less than three top category, you need to change the code at `create.py <ckanext/userautoaddgroup/logic/action/create.py>`_.
 
 
 -----------
